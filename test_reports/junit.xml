@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites name="pytest tests">
+  <testsuite name="pytest" errors="0" failures="0" skipped="0" tests="12" time="0.334" timestamp="2025-11-12T16:50:18.929571+00:00" hostname="codespaces-9d2529">
+    <testcase classname="tests.test_app.TestGetActivities" name="test_get_activities_success" time="0.185" />
+    <testcase classname="tests.test_app.TestGetActivities" name="test_get_activities_structure" time="0.004" />
+    <testcase classname="tests.test_app.TestGetActivities" name="test_get_activities_has_participants" time="0.004" />
+    <testcase classname="tests.test_app.TestSignupForActivity" name="test_signup_success" time="0.006" />
+    <testcase classname="tests.test_app.TestSignupForActivity" name="test_signup_to_nonexistent_activity" time="0.006" />
+    <testcase classname="tests.test_app.TestSignupForActivity" name="test_signup_duplicate_email" time="0.011" />
+    <testcase classname="tests.test_app.TestSignupForActivity" name="test_signup_multiple_activities" time="0.014" />
+    <testcase classname="tests.test_app.TestRemoveParticipant" name="test_remove_participant_success" time="0.005" />
+    <testcase classname="tests.test_app.TestRemoveParticipant" name="test_remove_participant_from_nonexistent_activity" time="0.004" />
+    <testcase classname="tests.test_app.TestRemoveParticipant" name="test_remove_nonexistent_participant" time="0.008" />
+    <testcase classname="tests.test_app.TestRemoveParticipant" name="test_remove_multiple_participants" time="0.011" />
+    <testcase classname="tests.test_app.TestIntegration" name="test_signup_and_remove_workflow" time="0.018" />
+  </testsuite>
+</testsuites>
